@@ -6,7 +6,7 @@ def range_with_stop(stop):
     :param stop: The stop value for the range.
     :return: A sequence of integers.
     """
-    return 0
+    return list(range(stop))
 
 
 def range_with_start_stop(start, stop):
@@ -18,7 +18,7 @@ def range_with_start_stop(start, stop):
     :param stop: The stop value for the range.
     :return: A sequence of integers.
     """
-    return 0
+    return list(range(start,stop))
 
 
 def range_with_start_stop_step(start, stop, step):
@@ -32,4 +32,4 @@ def range_with_start_stop_step(start, stop, step):
     :param step: The step value for the range.
     :return: A sequence of integers.
     """
-    return 0
+    return list(range(start,stop,step))
